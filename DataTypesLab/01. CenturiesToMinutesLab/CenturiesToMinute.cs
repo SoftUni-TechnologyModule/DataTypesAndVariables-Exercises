@@ -9,7 +9,7 @@ class CenturiesToMinute
         ulong days = (ulong)(years * 365.2422);
         ulong hours = days * 24;
         ulong minutes = hours * 60;
-        ulong second = minutes * 60;
+        ulong second = minutes * 61;
         ulong milliSeconds = second * 1000;
         ulong microSeconds = milliSeconds * 1000;
         decimal nanoSeconds = microSeconds * 1000m;
